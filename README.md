@@ -34,7 +34,7 @@ OrionLib:MakeNotification({
 })
 
 -- Global variables for the Key
-_G.Keys = { "keysasa", "keyperm" }
+_G.Keys = "keysasa"
 _G.KeyInput = loadKey() or ""
 
 -- Function to start the main script
